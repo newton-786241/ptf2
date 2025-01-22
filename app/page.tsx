@@ -1,3 +1,4 @@
+import Clients from "@/Components/Clients";
 import Grid from "@/Components/Grid";
 import Hero from "@/Components/Hero";
 import Recentprojects from "@/Components/Recentprojects";
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero/>
         <Grid/>
         <Recentprojects/>
+        <Clients/>
       </div>
     </main>
   );
