@@ -1,6 +1,7 @@
 import { div } from "framer-motion/client";
 import { Spotlight } from "./UI/Spotlight";
 import { TextGenerateEffect } from "./UI/text-generate-effect";
+import MagicButton from "./UI/Magicbutton";
 
 const Hero = () => {
     return ( 
@@ -21,6 +22,11 @@ const Hero = () => {
                     <TextGenerateEffect className="text-center text-[40px] md:text-5xl sm:text-6xl" words="Transforming Concepts into Seamless Experiences"/>
                 </h1>
                 <p>Hi, I'm Tamseel, A NextJS developer based in India</p>
+                <div className="my-10">
+                <MagicButton
+                    title="Show my Work"
+                />
+            </div>
             </div>
         </div>
       </div>
