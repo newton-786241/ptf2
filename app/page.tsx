@@ -4,6 +4,7 @@ import Hero from "@/Components/Hero";
 import Recentprojects from "@/Components/Recentprojects";
 import { FloatingNav } from "@/Components/UI/Floating-navbar";
 import { navItems } from "@/data";
+import React from "react";
 
 export default function Home() {
   return (
